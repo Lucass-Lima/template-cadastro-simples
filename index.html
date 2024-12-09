@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cadastro Simples</title>
+</head>
+<body>
+
+    <div id="container">
+        <h2>Cadastro</h2>
+        <form action="./paginas/cadastrado.html">
+            <div class="inputs">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+
+            <div class="inputs">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+
+            <div class="inputs">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+                
+            <div class="inputs">
+                <button type="submit" id="btn_enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

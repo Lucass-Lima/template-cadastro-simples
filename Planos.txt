@@ -1,0 +1,14 @@
+DESCRIÇÃO
+Um template de cadastro simples com login, apos preencher os campos e cadastrar envia as informações para o armazenamento do navegador, depois na area de
+login usa essas mesmas informações para fazer o login.
+
+JA FEITO
+• Layout
+• Formulario
+• Pagina de sucesso(cadastrado com sucesso e logado com sucesso)
+• Armazenamento das informações dinâmico
+• Estilização
+
+PARA FAZER
+• Design Responsivo (Media Queries)
+• Mais de 1 usuário cadastrado e login
